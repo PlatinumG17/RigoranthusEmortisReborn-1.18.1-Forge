@@ -1,31 +1,12 @@
 package com.platinumg17.rigoranthusemortisreborn.items.armor.models;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.platinumg17.rigoranthusemortisreborn.RigoranthusEmortisReborn;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.core.Registry;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.monster.AbstractIllager;
-import net.minecraft.world.entity.monster.ZombieVillager;
-import net.minecraft.world.entity.npc.AbstractVillager;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.client.IItemRenderProperties;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class DwellerThoraxModel<T extends Entity> extends ArmorModel {
     // This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
@@ -34,11 +15,6 @@ public class DwellerThoraxModel<T extends Entity> extends ArmorModel {
     public DwellerThoraxModel(ModelPart part) {
         super(part);
     }
-//    private final ModelPart thorax;
-//
-//    public DwellerThoraxModel(ModelPart root) {
-//        this.thorax = root.getChild("thorax");
-//    }
 
     public static LayerDefinition createBodyLayer() {
         MeshDefinition mesh = HumanoidModel.createMesh(new CubeDeformation(0), 0);
@@ -50,8 +26,6 @@ public class DwellerThoraxModel<T extends Entity> extends ArmorModel {
         PartDefinition left_arm = root.getChild("LeftArm");
         PartDefinition right_arm = root.getChild("RightArm");
         PartDefinition head = root.getChild("Head");
-//        MeshDefinition meshdefinition = new MeshDefinition();
-//        PartDefinition partdefinition = meshdefinition.getRoot();
 
         PartDefinition thorax = root.addOrReplaceChild("Body", CubeListBuilder.create(), PartPose.offsetAndRotation(-0.2F, 3.1F, 1.0F, 0.0873F, 0.0F, 0.0F));
 

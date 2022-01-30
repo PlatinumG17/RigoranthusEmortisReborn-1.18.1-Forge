@@ -69,7 +69,6 @@ public class ArmorModel <T extends LivingEntity> extends HumanoidModel<T> implem
 
     @Override
     public void renderToBuffer(PoseStack matrixStack, VertexConsumer buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha){
-//        super.renderToBuffer(matrixStack, buffer, packedLight, packedOverlay, red, green, blue, alpha);
         matrixStack.pushPose();
         if (this.slot == EquipmentSlot.HEAD) {
             this.modelHead.copyFrom(this.head);
@@ -112,31 +111,3 @@ public class ArmorModel <T extends LivingEntity> extends HumanoidModel<T> implem
         modelRight_foot.copyFrom(rightLeg);
     }
 }
-//import com.mojang.blaze3d.vertex.PoseStack;
-//import com.mojang.blaze3d.vertex.VertexConsumer;
-//import net.minecraft.client.model.HumanoidModel;
-//import net.minecraft.client.model.PlayerModel;
-//import net.minecraft.client.model.geom.ModelPart;
-//import net.minecraft.world.entity.EquipmentSlot;
-//import net.minecraft.world.entity.LivingEntity;
-//
-//public class ArmorModel <T extends LivingEntity> extends HumanoidModel<T> {
-//    protected final EquipmentSlot slotType;
-//    protected ModelPart Body;
-//
-//    public ArmorModel(float modelSize, EquipmentSlot slotType) {
-//        super(modelSize, 0, 32, 32);
-//        this.slotType = slotType;
-//    }
-//
-//    @Override
-//    public void renderToBuffer(PoseStack matrixStack, VertexConsumer buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
-//        matrixStack.pushPose();
-//
-//        if (this.slotType == EquipmentSlot.CHEST) {
-//            Body.copyFrom(this.Body);
-//            Body.render(matrixStack, buffer, packedLight, packedOverlay, red, green, blue, alpha);
-//            matrixStack.popPose();
-//        }
-//    }
-//}
