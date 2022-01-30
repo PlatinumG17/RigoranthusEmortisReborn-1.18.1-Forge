@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "YYY",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "rigoranthusemortisreborn:big_bone"
+    },
+    "Y": {
+      "item": "rigoranthusemortisreborn:training_treat"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:regular_treat",
+    "count": 5
+  }
+}

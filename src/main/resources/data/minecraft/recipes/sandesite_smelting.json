@@ -1,0 +1,12 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:smelting",
+  "experience": 0.8,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "rigoranthusemortisreborn:sandesite"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:fortified_sandesite"
+  }
+}

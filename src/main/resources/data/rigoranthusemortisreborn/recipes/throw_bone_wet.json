@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:throw_bone_wet"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:throw_bone"
+  }
+}

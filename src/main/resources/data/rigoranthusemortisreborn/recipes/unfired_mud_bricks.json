@@ -1,0 +1,19 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:mud_glob"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "rigoranthusemortisreborn:mud_glob"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:unfired_mud_brick",
+    "count": 2
+  }
+}

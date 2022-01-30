@@ -1,0 +1,20 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:rods/wooden"
+    },
+    "1": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_fence_gate",
+    "count": 2
+  }
+}

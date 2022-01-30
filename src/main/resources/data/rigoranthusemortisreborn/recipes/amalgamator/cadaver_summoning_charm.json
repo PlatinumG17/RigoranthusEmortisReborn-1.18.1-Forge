@@ -1,0 +1,53 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:pact_of_servitude"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "rigoranthusemortisreborn:cadaver_skull"
+    }
+  ],
+  "output": {
+    "item": "rigoranthusemortisreborn:cadaver_summoning_charm"
+  }
+}

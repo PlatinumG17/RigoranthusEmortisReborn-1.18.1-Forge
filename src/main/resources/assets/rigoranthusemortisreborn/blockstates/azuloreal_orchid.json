@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [ { "model": "rigoranthusemortisreborn:block/azuloreal_orchid", "weight":1 },
+                { "model": "rigoranthusemortisreborn:block/azuloreal_orchid1", "weight":1 },
+                { "model": "rigoranthusemortisreborn:block/azuloreal_orchid2", "weight":1 },
+                { "model": "rigoranthusemortisreborn:block/azuloreal_orchid3", "weight":1 }
+        ]
+    }
+}

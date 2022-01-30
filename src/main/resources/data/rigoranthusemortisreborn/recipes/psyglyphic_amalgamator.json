@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ydy",
+      "gpg",
+      "beb"
+    ],
+    "key": {
+      "g": {
+        "tag": "forge:ingots/gold"
+      },
+      "y": {
+        "tag": "forge:gems/diamond"
+      },
+      "d": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      },
+      "e": {
+        "item": "rigoranthusemortisreborn:powdered_esotericum"
+      },
+      "p": {
+        "tag": "forge:glass_panes"
+      },
+      "b": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:psyglyphic_amalgamator"
+    }
+  }

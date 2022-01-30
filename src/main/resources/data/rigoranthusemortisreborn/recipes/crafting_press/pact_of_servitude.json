@@ -1,0 +1,13 @@
+{
+  "type": "rigoranthusemortisreborn:crafting_press_recipe",
+  "base": {
+      "item": "minecraft:paper"
+    },
+  "reagent": {
+      "item": "rigoranthusemortisreborn:bottle_of_ichor"
+    },
+  "dominionCost": 100,
+  "output": {
+    "item": "rigoranthusemortisreborn:pact_of_servitude"
+  }
+}

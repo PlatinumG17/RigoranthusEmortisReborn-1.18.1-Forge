@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GDG",
+      "GMG",
+      "GDG"
+    ],
+    "key": {
+      "G": {
+        "tag": "forge:ingots/gold"
+      },
+      "M": {
+        "item": "rigoranthusemortisreborn:dominion_gem_block"
+      },
+      "D": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:emortic_relay"
+    }
+  }

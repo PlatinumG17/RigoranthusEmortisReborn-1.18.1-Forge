@@ -1,0 +1,27 @@
+{
+  "group": "rigoranthus_misc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "020",
+    "333"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/iron"
+    },
+    "1": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "2": {
+      "item": "minecraft:blast_furnace"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:masterful_smeltery",
+    "count": 1
+  }
+}

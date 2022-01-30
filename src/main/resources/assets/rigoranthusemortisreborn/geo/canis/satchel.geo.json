@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.satchel",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "satchel",
+					"pivot": [-0.075, 27, 6],
+					"rotation": [-17.5, 0, 0],
+					"cubes": [
+						{"origin": [-6.85, 26.56361, 5.66325], "size": [13.8, 1, 2], "uv": [0, 0]},
+						{"origin": [-1.7, 26.31361, 5.16325], "size": [3, 2, 2], "uv": [11, 3]}
+					]
+				},
+				{
+					"name": "right_satchel",
+					"parent": "satchel",
+					"pivot": [-8, 8.81361, 9.66325],
+					"cubes": [
+						{"origin": [-8.05, 21.56361, 3.16325], "size": [2.2, 5.1, 7], "uv": [11, 20]},
+						{"origin": [-7.95, 21.56361, 3.16325], "size": [2, 5, 7], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "left_satchel",
+					"parent": "satchel",
+					"pivot": [-8, 8.81361, 9.66325],
+					"cubes": [
+						{"origin": [5.9, 21.56361, 3.16325], "size": [2.2, 5.1, 7], "uv": [11, 8]},
+						{"origin": [6, 21.56361, 3.16325], "size": [2, 5, 7], "uv": [0, 3]}
+					]
+				}
+			]
+		}
+	]
+}

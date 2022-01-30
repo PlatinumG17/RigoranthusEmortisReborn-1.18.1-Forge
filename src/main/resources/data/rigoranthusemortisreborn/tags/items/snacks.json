@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rigoranthusemortisreborn:training_treat",
+    "rigoranthusemortisreborn:regular_treat",
+    "rigoranthusemortisreborn:master_treat",
+    "rigoranthusemortisreborn:homini_treat"
+  ]
+}

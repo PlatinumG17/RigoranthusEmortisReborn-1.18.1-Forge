@@ -1,0 +1,37 @@
+{
+  "group": "ore_fragment_crushing",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:copper_ore_fragment"
+    }
+  ],
+  "result": {
+    "item": "alltheores:copper_nugget",
+    "count": 12
+  }
+}

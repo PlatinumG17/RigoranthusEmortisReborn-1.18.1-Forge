@@ -1,0 +1,21 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_sign",
+    "count": 2
+  }
+}

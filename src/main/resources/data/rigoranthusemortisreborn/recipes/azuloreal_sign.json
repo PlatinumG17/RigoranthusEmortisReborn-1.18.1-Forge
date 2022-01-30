@@ -1,0 +1,21 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_sign",
+    "count": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xyx",
+      "xbx",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "tag": "forge:glass"
+      },
+      "y": {
+        "item": "rigoranthusemortisreborn:opulent_magma"
+      },
+      "b": {
+        "item": "rigoranthusemortisreborn:bottle_of_ichor"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:ichor_jar"
+    }
+  }

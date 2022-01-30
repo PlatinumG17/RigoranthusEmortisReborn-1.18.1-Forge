@@ -1,0 +1,27 @@
+{
+  "group": "blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "232",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:andesite"
+    },
+    "1": {
+      "tag": "forge:nuggets/iron"
+    },
+    "2": {
+      "tag": "forge:nuggets/zinc"
+    },
+    "3": {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:sandesite",
+    "count": 4
+  }
+}

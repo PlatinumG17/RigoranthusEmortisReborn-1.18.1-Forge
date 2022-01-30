@@ -1,0 +1,12 @@
+{
+  "type": "rigoranthusemortisreborn:crafting_press_recipe",
+  "base": {
+      "item": "rigoranthusemortisreborn:bottle_of_ichor"
+    },
+  "reagent": {
+      "tag": "forge:gems/diamond"
+    },
+  "output": {
+    "item": "rigoranthusemortisreborn:dominion_gem"
+  }
+}

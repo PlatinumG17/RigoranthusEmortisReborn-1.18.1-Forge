@@ -1,0 +1,12 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "rigoranthusemortisreborn:fragmented_netherrack"
+  },
+  "result": {
+    "item": "minecraft:netherrack"
+  }
+}

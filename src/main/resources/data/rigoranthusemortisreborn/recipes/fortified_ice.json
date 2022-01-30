@@ -1,0 +1,24 @@
+{
+  "group": "blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:packed_ice"
+    },
+    "1": {
+      "item": "minecraft:blue_ice"
+    },
+    "2": {
+      "item": "minecraft:light_blue_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:oxylite",
+    "count": 1
+  }
+}

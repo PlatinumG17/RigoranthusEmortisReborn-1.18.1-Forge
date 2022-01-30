@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rigoranthusemortisreborn:block/jessic_slab"
+    },
+    "type=top": {
+      "model": "rigoranthusemortisreborn:block/jessic_slab_top"
+    },
+    "type=double": {
+      "model": "rigoranthusemortisreborn:block/jessic_slab_full"
+    }
+  }
+}

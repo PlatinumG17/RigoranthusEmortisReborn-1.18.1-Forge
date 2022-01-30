@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rigoranthusemortisreborn:bone_fragment",
+    "rigoranthusemortisreborn:tiny_bone",
+    "rigoranthusemortisreborn:big_bone",
+    "minecraft:bone"
+  ]
+}

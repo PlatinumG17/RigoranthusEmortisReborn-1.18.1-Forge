@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rigoranthusemortisreborn:block/jessic_ladder"
+    },
+    "facing=east": {
+      "model": "rigoranthusemortisreborn:block/jessic_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rigoranthusemortisreborn:block/jessic_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rigoranthusemortisreborn:block/jessic_ladder",
+      "y": 270
+    }
+  }
+}

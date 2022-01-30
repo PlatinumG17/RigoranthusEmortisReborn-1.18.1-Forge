@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xyx",
+      "l l",
+      " l "
+    ],
+    "key": {
+      "x": {
+        "tag": "forge:nuggets/iron"
+      },
+      "l": {
+        "tag": "forge:leather"
+      },
+      "y": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:unadorned_amulet"
+    }
+  }

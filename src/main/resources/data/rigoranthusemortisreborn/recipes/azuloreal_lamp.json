@@ -1,0 +1,24 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "PSP",
+    "RPR"
+  ],
+  "key": {
+    "S": {
+      "item": "rigoranthusemortisreborn:stripped_azuloreal_log"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_lamp",
+    "count": 1
+  }
+}

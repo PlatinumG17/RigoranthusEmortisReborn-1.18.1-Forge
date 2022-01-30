@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:pernicious_netherite_ingot"
+    },
+    "1": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:pernicious_sword",
+    "count": 1
+  }
+}

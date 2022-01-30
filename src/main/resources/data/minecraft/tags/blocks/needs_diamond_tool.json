@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "rigoranthusemortisreborn:abyssalite",
+    "rigoranthusemortisreborn:oxylite",
+    "rigoranthusemortisreborn:recondite_ore",
+    "rigoranthusemortisreborn:apogean_netherite_block",
+    "rigoranthusemortisreborn:aqueous_netherite_block",
+    "rigoranthusemortisreborn:atrophying_netherite_block",
+    "rigoranthusemortisreborn:incorporeal_netherite_block",
+    "rigoranthusemortisreborn:infernal_netherite_block",
+    "rigoranthusemortisreborn:opulent_netherite_block",
+    "rigoranthusemortisreborn:pernicious_netherite_block",
+    "rigoranthusemortisreborn:phantasmal_netherite_block",
+    "rigoranthusemortisreborn:remex_netherite_block"
+  ]
+}

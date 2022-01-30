@@ -1,0 +1,26 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_post"
+    },
+    "L": {
+      "item": "rigoranthusemortisreborn:azuloreal_leaves"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_hedge",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "blueprint:quark_flag",
+      "flag": "hedges"
+    }
+  ]
+}

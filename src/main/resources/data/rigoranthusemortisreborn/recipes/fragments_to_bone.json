@@ -1,0 +1,19 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone",
+    "count": 1
+  }
+}

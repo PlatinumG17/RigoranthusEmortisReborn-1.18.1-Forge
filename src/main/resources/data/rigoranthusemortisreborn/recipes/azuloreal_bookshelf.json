@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "BBB",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_planks"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_bookshelf",
+    "count": 1
+  }
+}

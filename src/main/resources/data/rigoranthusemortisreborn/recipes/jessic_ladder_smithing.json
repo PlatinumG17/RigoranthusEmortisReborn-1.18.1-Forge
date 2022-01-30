@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:ladder"
+  },
+  "addition": {
+    "tag": "forge:nuggets/gold"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_ladder"
+  }
+}

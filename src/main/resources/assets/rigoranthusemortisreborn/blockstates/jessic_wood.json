@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rigoranthusemortisreborn:block/jessic_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rigoranthusemortisreborn:block/jessic_wood"
+    },
+    "axis=z": {
+      "model": "rigoranthusemortisreborn:block/jessic_wood",
+      "x": 90
+    }
+  }
+}

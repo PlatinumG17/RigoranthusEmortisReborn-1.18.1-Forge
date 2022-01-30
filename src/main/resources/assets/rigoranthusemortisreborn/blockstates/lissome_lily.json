@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "loc=0": { "model": "rigoranthusemortisreborn:block/lissome_lily/lily_stone" },
+	"loc=1": { "model": "rigoranthusemortisreborn:block/lissome_lily/lily_grass" },
+	"loc=2": { "model": "rigoranthusemortisreborn:block/lissome_lily/lily_water" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "rigoranthusemortisreborn:fragmented_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:unfired_brick",
+    "count": 1
+  }
+}

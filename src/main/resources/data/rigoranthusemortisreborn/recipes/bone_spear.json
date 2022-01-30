@@ -1,0 +1,30 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SIS",
+    "WBW",
+    "LBL"
+  ],
+  "key": {
+    "B": {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    },
+    "L": {
+      "tag": "forge:leather"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:bone_spear",
+    "count": 1
+  }
+}

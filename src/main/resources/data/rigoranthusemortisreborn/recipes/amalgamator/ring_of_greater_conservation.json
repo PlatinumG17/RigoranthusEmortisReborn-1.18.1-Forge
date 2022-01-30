@@ -1,0 +1,53 @@
+{
+    "type": "rigoranthusemortisreborn:amalgamator_recipe",
+    "pedestalItems": [
+        {
+          "item": {
+            "tag": "forge:gems/diamond"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:gems/diamond"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:gems/diamond"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:gems/diamond"
+          }
+        },
+        {
+          "item": {
+            "item": "minecraft:ender_eye"
+          }
+        },
+        {
+          "item": {
+            "item": "minecraft:ender_eye"
+          }
+        },
+        {
+          "item": {
+            "item": "rigoranthusemortisreborn:dominion_gem"
+          }
+        },
+        {
+          "item": {
+            "item": "rigoranthusemortisreborn:dominion_gem"
+          }
+        }
+      ],
+      "reagent": [
+        {
+          "item": "rigoranthusemortisreborn:ring_of_lesser_conservation"
+        }
+      ],
+      "output": {
+        "item": "rigoranthusemortisreborn:ring_of_greater_conservation"
+      }
+    }

@@ -1,0 +1,12 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:campfire_cooking",
+  "experience": 3,
+  "cookingtime": 220,
+  "ingredient": {
+    "item": "ceramics:unfired_clay_bucket"
+  },
+  "result": {
+    "item": "ceramics:clay_bucket"
+  }
+}

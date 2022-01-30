@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sgs",
+    "xyx",
+    "aba"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    },
+    "y": {
+      "item": "minecraft:piston"
+    },
+    "g": {
+      "tag": "forge:glass_panes"
+    },
+    "x": {
+      "item": "rigoranthusemortisreborn:powdered_esotericum"
+    },
+    "a": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:emortic_crafting_press"
+  }
+}

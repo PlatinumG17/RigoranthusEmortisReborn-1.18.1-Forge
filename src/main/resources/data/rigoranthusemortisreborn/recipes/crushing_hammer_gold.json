@@ -1,0 +1,24 @@
+{
+  "group": "crushing_hammers",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GS",
+    " WG",
+    "W  "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:gold_crushing_hammer",
+    "count": 1
+  }
+}

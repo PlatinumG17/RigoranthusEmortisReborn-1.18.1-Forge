@@ -1,0 +1,24 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "rigoranthusemortisreborn:azuloreal_log"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_post",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "blueprint:quark_flag",
+      "flag": "wooden_posts"
+    }
+  ]
+}

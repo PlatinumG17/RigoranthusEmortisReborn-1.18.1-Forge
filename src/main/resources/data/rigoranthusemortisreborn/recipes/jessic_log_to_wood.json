@@ -1,0 +1,17 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00",
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:jessic_log"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_wood",
+    "count": 1
+  }
+}

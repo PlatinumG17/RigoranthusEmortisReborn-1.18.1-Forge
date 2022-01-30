@@ -1,0 +1,16 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:fragmented_cobblestone",
+    "count": 1
+  }
+}

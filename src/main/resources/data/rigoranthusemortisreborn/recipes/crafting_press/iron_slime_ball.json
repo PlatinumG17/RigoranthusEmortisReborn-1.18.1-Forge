@@ -1,0 +1,12 @@
+{
+  "type": "rigoranthusemortisreborn:crafting_press_recipe",
+  "base": {
+      "tag": "forge:ingots/iron"
+    },
+  "reagent": {
+      "item": "minecraft:slime_ball"
+    },
+  "output": {
+    "item": "rigoranthusemortisreborn:iron_slime_ball"
+  }
+}

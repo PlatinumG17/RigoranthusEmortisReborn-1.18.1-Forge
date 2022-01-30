@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=true": { "model": "rigoranthusemortisreborn:block/rune" },
+	"powered=false": { "model": "rigoranthusemortisreborn:block/rune_deactivated" }
+  }
+}

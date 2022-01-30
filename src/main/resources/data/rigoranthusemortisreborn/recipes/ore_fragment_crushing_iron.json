@@ -1,0 +1,37 @@
+{
+  "group": "ore_fragment_crushing",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:iron_ore_fragment"
+    }
+  ],
+  "result": {
+    "tag": "forge:nuggets/iron",
+    "count": 12
+  }
+}

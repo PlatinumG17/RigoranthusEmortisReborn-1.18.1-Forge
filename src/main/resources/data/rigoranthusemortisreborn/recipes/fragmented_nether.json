@@ -1,0 +1,16 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:fragmented_netherrack",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+run-client
+run-server
+logs
+
+# Files from Forge MDK
+forge*changelog.txt
+/models/
+/src/test/
+.cache
+/src/main/resources/assets/rigoranthusemortisreborn/models/
+test
+/src/Magica/

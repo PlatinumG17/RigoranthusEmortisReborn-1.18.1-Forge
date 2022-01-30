@@ -1,0 +1,54 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "rigoranthusemortisreborn:unadorned_amulet"
+    }
+  ],
+  "expGain": 20,
+  "output": {
+    "item": "rigoranthusemortisreborn:amulet_of_dominion_regen"
+  }
+}

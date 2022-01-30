@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGS",
+    "G S",
+    "GGS"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:nuggets/gold"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:emortic_weapon_grip",
+    "count": 1
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "resolve_spell": {
+    "subtitle": "rigoranthusemortisreborn.resolve_spell",
+    "category": "block",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:resolve_spell",
+        "stream": false
+      }
+    ]
+  },
+  "cast_spell": {
+    "subtitle": "rigoranthusemortisreborn.cast_spell",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:cast_spell",
+        "stream": false
+      }
+    ]
+  },
+  "grimoire_use": {
+    "subtitle": "rigoranthusemortisreborn.grimoire_use",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:grimoire_use",
+        "stream": false
+      }
+    ]
+  },
+  "razortooth_frisbee_hit": {
+    "subtitle": "rigoranthusemortisreborn.razortooth_frisbee_hit",
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:razortooth_frisbee_hit",
+        "stream": false
+      }
+    ]
+  },
+  "desperate_cries": {
+    "subtitle": "rigoranthusemortisreborn.desperate_cries",
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:desperate_cries",
+        "stream": false
+      }
+    ]
+  },
+  "whistle_short": {
+    "subtitle": "rigoranthusemortisreborn.whistle.short",
+    "sounds": [ "rigoranthusemortisreborn:whistle/short" ]
+  },
+  "whistle_long": {
+    "subtitle": "rigoranthusemortisreborn.whistle.long",
+    "sounds": [ "rigoranthusemortisreborn:whistle/long" ]
+  },
+  "canis_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "sword_swing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:sword_swing",
+        "stream": false
+      }
+    ]
+  },
+  "shoot_bow": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:shoot_bow",
+        "stream": false
+      }
+    ]
+  },
+  "fireball": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:fireball1",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:fireball2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:fireball3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:fireball4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:fireball5",
+        "stream": false
+      }
+    ]
+  },
+  "canis_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt_5",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_hurt_6",
+        "stream": false
+      }
+    ]
+  },
+  "canis_huff": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:canis_huff",
+        "stream": false
+      }
+    ]
+  },
+  "dweller_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_5",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_6",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_7",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_ambient_8",
+        "stream": false
+      }
+    ]
+  },
+  "dweller_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:dweller_death",
+        "stream": false
+      }
+    ]
+  },
+  "dweller_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:dweller_hurt",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:dweller_hurt_4",
+        "stream": false
+      }
+    ]
+  },
+  "forgotten_record": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:forgotten_record",
+        "stream": true
+      }
+    ]
+  },
+  "level_up": {
+      "category": "record",
+      "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:level_up",
+        "stream": false
+      }
+    ]
+  },
+  "neon_lights": {
+   "category": "record",
+   "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:neon_lights",
+        "stream": false
+      }
+    ]
+  },
+  "necraw_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_5",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_6",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_7",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_8",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_ambient_9",
+        "stream": false
+      }
+    ]
+  },
+  "necraw_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:necraw_death",
+        "stream": false
+      }
+    ]
+  },
+  "necraw_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:necraw_hurt",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:necraw_hurt_4",
+        "stream": false
+      }
+    ]
+  },
+  "cadaver_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:cadaver_death",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_death_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_death_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_death_4",
+        "stream": false
+      }
+    ]
+  },
+  "cadaver_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_5",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_6",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_hurt_7",
+        "stream": false
+      }
+    ]
+  },
+  "cadaver_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:cadaver_ambient",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_ambient_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_ambient_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:cadaver_ambient_4",
+        "stream": false
+      }
+    ]
+  },
+  "un_dia_de_abril": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:un_dia_de_abril"
+      }
+    ]
+  },
+  "calm_right": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:calm_right"
+      }
+    ]
+  },
+  "undead_step": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:undead_step",
+        "stream": false
+      }
+    ]
+  },
+  "canis_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_2",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_3",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_4",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_5",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_6",
+        "stream": false
+      },
+      {
+        "name": "rigoranthusemortisreborn:canis_ambient_7",
+        "stream": false
+      }
+    ]
+  }
+}

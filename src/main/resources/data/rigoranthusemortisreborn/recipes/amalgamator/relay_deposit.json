@@ -1,0 +1,33 @@
+{
+    "type": "rigoranthusemortisreborn:amalgamator_recipe",
+    "pedestalItems": [
+      {
+        "item": {
+          "item": "minecraft:hopper"
+        }
+      },
+      {
+        "item": {
+          "item": "minecraft:hopper"
+        }
+      },
+      {
+        "item": {
+          "item": "minecraft:hopper"
+        }
+      },
+      {
+        "item": {
+          "item": "minecraft:hopper"
+        }
+      }
+    ],
+    "reagent": [
+      {
+        "item": "rigoranthusemortisreborn:emortic_relay"
+      }
+    ],
+    "output": {
+      "item": "rigoranthusemortisreborn:relay_deposit"
+    }
+  }

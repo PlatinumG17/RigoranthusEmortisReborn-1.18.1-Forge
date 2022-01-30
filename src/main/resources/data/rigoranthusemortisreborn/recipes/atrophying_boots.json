@@ -1,0 +1,17 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:atrophying_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:atrophying_netherite_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  T",
+    " B ",
+    "B  "
+  ],
+  "key": {
+    "B": {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    "T": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:bone_arrow",
+    "count": 2
+  }
+}

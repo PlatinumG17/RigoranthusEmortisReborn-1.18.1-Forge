@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xyx",
+      "x x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "tag": "forge:glass"
+      },
+      "y": {
+        "item": "rigoranthusemortisreborn:opulent_magma"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:dominion_jar"
+    }
+  }

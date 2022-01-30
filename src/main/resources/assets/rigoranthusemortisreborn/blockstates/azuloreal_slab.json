@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_slab"
+    },
+    "type=top": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_slab_top"
+    },
+    "type=double": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_slab_full"
+    }
+  }
+}

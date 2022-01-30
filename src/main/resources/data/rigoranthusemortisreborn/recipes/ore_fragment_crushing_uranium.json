@@ -1,0 +1,37 @@
+{
+  "group": "ore_fragment_crushing",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "tag": "rigoranthusemortisreborn:crushing_hammer"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    },
+    {
+      "item": "rigoranthusemortisreborn:uranium_ore_fragment"
+    }
+  ],
+  "result": {
+    "item": "alltheores:uranium_nugget",
+    "count": 12
+  }
+}

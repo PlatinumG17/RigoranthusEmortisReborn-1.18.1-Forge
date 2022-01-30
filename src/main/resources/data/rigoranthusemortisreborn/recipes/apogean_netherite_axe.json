@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IB",
+    " B"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:apogean_netherite_ingot"
+    },
+    "B": {
+      "item": "rigoranthusemortisreborn:big_bone"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:apogean_axe",
+    "count": 1
+  }
+}

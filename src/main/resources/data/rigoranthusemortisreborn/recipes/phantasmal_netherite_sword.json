@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:phantasmal_netherite_ingot"
+    },
+    "1": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:phantasmal_sword",
+    "count": 1
+  }
+}

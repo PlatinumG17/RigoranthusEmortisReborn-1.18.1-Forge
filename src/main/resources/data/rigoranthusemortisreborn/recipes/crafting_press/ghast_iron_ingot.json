@@ -1,0 +1,12 @@
+{
+  "type": "rigoranthusemortisreborn:crafting_press_recipe",
+  "base": {
+      "item": "minecraft:ghast_tear"
+    },
+  "reagent": {
+      "tag": "forge:ingots/iron"
+    },
+  "output": {
+    "item": "rigoranthusemortisreborn:ghast_iron_ingot"
+  }
+}

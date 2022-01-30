@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "fill=0": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar0" },
+	"fill=1": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar_sliver" },
+	"fill=2": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar10" },
+	"fill=3": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar20" },
+	"fill=4": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar30" },
+	"fill=5": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar40" },
+	"fill=6": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar50" },
+	"fill=7": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar60" },
+	"fill=8": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar70" },
+	"fill=9": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar80" },
+	"fill=10": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar90" },
+	"fill=11": { "model": "rigoranthusemortisreborn:block/dominion_jar/dominion_jar100" }
+	
+  }
+}

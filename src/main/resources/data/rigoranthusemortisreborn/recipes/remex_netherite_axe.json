@@ -1,0 +1,24 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II ",
+    "IGF",
+    " G "
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:remex_netherite_ingot"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:remex_axe",
+    "count": 1
+  }
+}

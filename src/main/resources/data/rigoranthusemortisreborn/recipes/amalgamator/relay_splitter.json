@@ -1,0 +1,53 @@
+{
+    "type": "rigoranthusemortisreborn:amalgamator_recipe",
+    "pedestalItems": [
+      {
+        "item": {
+          "tag": "forge:gems/quartz"
+        }
+      },
+      {
+        "item": {
+          "tag": "forge:gems/quartz"
+        }
+      },
+      {
+        "item": {
+          "tag": "forge:glass_panes"
+        }
+      },
+      {
+        "item": {
+          "tag": "forge:glass_panes"
+        }
+      },
+      {
+        "item": {
+          "tag": "forge:ingots/gold"
+        }
+      },
+      {
+        "item": {
+          "tag": "forge:ingots/gold"
+        }
+      },
+      {
+        "item": {
+          "item": "minecraft:prismarine_crystals"
+        }
+      },
+      {
+        "item": {
+          "item": "minecraft:prismarine_crystals"
+        }
+      }
+    ],
+    "reagent": [
+      {
+        "item": "rigoranthusemortisreborn:emortic_relay"
+      }
+    ],
+    "output": {
+      "item": "rigoranthusemortisreborn:relay_splitter"
+    }
+  }

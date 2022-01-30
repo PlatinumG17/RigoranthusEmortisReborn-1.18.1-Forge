@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xyx",
+      "x x",
+      "xxx"
+    ],
+    "key": {
+      "x": {
+        "tag": "forge:nuggets/iron"
+      },
+      "y": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:unadorned_ring"
+    }
+  }

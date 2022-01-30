@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "YDY",
+    " B "
+  ],
+  "key": {
+    "D": {
+      "item": "rigoranthusemortisreborn:dominion_gem"
+    },
+    "B": {
+      "item": "rigoranthusemortisreborn:big_bone"
+    },
+    "Y": {
+      "item": "rigoranthusemortisreborn:regular_treat"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:master_treat",
+    "count": 5
+  }
+}

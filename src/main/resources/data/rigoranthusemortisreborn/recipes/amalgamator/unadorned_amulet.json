@@ -1,0 +1,39 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:leather"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/iron"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/iron"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "output": {
+    "item": "rigoranthusemortisreborn:unadorned_amulet",
+    "count": 1
+  }
+}

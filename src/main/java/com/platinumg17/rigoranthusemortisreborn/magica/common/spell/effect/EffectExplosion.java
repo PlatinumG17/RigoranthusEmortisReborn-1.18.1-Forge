@@ -1,0 +1,116 @@
+package com.platinumg17.rigoranthusemortisreborn.magica.common.spell.effect;
+
+import com.platinumg17.rigoranthusemortisreborn.api.apimagic.spell.*;
+import com.platinumg17.rigoranthusemortisreborn.api.apimagic.util.REExplosion;
+import com.platinumg17.rigoranthusemortisreborn.magica.common.lib.GlyphLib;
+import com.platinumg17.rigoranthusemortisreborn.magica.common.spell.augment.AugmentAOE;
+import com.platinumg17.rigoranthusemortisreborn.magica.common.spell.augment.AugmentAmplify;
+import com.platinumg17.rigoranthusemortisreborn.magica.common.spell.augment.AugmentDampen;
+import com.platinumg17.rigoranthusemortisreborn.magica.common.spell.augment.AugmentExtract;
+import net.minecraft.network.protocol.game.ClientboundExplodePacket;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.Explosion;
+import net.minecraft.world.level.ExplosionDamageCalculator;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.common.ForgeConfigSpec;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Set;
+
+public class EffectExplosion extends AbstractEffect {
+    public static EffectExplosion INSTANCE = new EffectExplosion();
+
+    private EffectExplosion() {
+        super(GlyphLib.EffectExplosionID, "Explosion");
+    }
+
+    @Override
+    public void onResolve(HitResult rayTraceResult, Level world, @Nullable LivingEntity shooter, SpellStats spellStats, SpellContext spellContext) {
+        Vec3 vec = safelyGetHitPos(rayTraceResult);
+        double intensity = BASE.get() + AMP_VALUE.get() * spellStats.getAmpMultiplier() + AOE_BONUS.get() * spellStats.getBuffCount(AugmentAOE.INSTANCE);
+        int dampen = spellStats.getBuffCount(AugmentDampen.INSTANCE);
+        intensity -= 0.5 * dampen;
+        Explosion.BlockInteraction mode = dampen > 0 ? Explosion.BlockInteraction.NONE  : Explosion.BlockInteraction.DESTROY;
+        mode = spellStats.hasBuff(AugmentExtract.INSTANCE) ? Explosion.BlockInteraction.BREAK : mode;
+        explode(world, shooter, null, null, vec.x, vec.y, vec.z, (float) intensity, false, mode, spellStats.getAmpMultiplier());
+    }
+
+    public Explosion explode(Level world, @Nullable Entity e, @Nullable DamageSource source, @Nullable ExplosionDamageCalculator context,
+                             double x, double y, double z, float radius, boolean damageEnv, Explosion.BlockInteraction interaction, double amp) {
+        REExplosion explosion = new REExplosion(world, e, source, context, x, y, z, radius, damageEnv, interaction, amp);
+        explosion.baseDamage = DAMAGE.get();
+        explosion.ampDamageScalar = AMP_DAMAGE.get();
+        if (net.minecraftforge.event.ForgeEventFactory.onExplosionStart(world, explosion)) return explosion;
+        explosion.explode();
+        explosion.finalizeExplosion(false);
+        if (interaction == Explosion.BlockInteraction.NONE) {
+            explosion.clearToBlow();
+        }
+        for(Player serverplayerentity : world.players()) {
+            if (serverplayerentity.distanceToSqr(x, y, z) < 4096.0D) {
+                ((ServerPlayer)serverplayerentity).connection.send(new ClientboundExplodePacket(x, y, z, radius, explosion.getToBlow(), explosion.getHitPlayers().get(serverplayerentity)));
+            }
+        }
+        return explosion;
+    }
+
+    public ForgeConfigSpec.DoubleValue BASE;
+    public ForgeConfigSpec.DoubleValue AOE_BONUS;
+    public ForgeConfigSpec.DoubleValue AMP_DAMAGE;
+
+    @Override
+    public void buildConfig(ForgeConfigSpec.Builder builder) {
+        super.buildConfig(builder);
+        addAmpConfig(builder, 0.5);
+        BASE = builder.comment("Explosion base intensity").defineInRange("base", 0.75, 0.0, 100);
+        AOE_BONUS = builder.comment("AOE intensity bonus").defineInRange("aoe_bonus", 1.5, 0.0, 100);
+        addDamageConfig(builder, 6.0);
+        AMP_DAMAGE = builder.comment("Additional damage per amplify").defineInRange("amp_damage", 2.5, 0.0, Integer.MAX_VALUE);
+    }
+
+    @Override
+    public int getDefaultDominionCost() {
+        return 200;
+    }
+
+    @Nullable
+    @Override
+    public Item getCraftingReagent() {
+        return Items.TNT;
+    }
+
+    @Override
+    public SpellTier getTier() {
+        return SpellTier.TWO;
+    }
+
+    @Nonnull
+    @Override
+    public Set<AbstractAugment> getCompatibleAugments() {
+        return augmentSetOf(
+                AugmentAmplify.INSTANCE, AugmentDampen.INSTANCE,
+                AugmentAOE.INSTANCE,
+                AugmentExtract.INSTANCE
+        );
+    }
+
+    @Override
+    public String getBookDescription() {
+        return "Causes an explosion at the location. Amplify increases the damage and size by a small amount, while AOE will increase the size of the explosion by a large amount, but not damage.";
+    }
+
+    @Nonnull
+    @Override
+    public Set<SpellSchool> getSchools() {
+        return setOf(SpellSchools.ELEMENTAL_FIRE);
+    }
+}

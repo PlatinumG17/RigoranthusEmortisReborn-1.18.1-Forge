@@ -1,0 +1,22 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "rigoranthusemortisreborn:jessic_leaves"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_leaf_carpet",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "blueprint:quark_flag",
+      "flag": "leaf_carpet"
+    }
+  ]
+}

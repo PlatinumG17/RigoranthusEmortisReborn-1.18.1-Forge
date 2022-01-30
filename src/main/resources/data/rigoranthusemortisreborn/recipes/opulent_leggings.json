@@ -1,0 +1,18 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:opulent_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:opulent_netherite_leggings",
+    "count": 1
+  }
+}

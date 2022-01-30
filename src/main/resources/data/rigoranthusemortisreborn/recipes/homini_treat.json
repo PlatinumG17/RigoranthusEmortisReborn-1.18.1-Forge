@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "YPY",
+    " B "
+  ],
+  "key": {
+    "D": {
+      "item": "rigoranthusemortisreborn:dominion_gem"
+    },
+    "P": {
+      "item": "rigoranthusemortisreborn:powdered_esotericum"
+    },
+    "B": {
+      "item": "rigoranthusemortisreborn:big_bone"
+    },
+    "Y": {
+      "item": "rigoranthusemortisreborn:master_treat"
+    },
+    "C": {
+      "item": "rigoranthusemortisreborn:bottle_of_ichor"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:homini_treat"
+  }
+}

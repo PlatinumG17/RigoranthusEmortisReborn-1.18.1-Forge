@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_pressure_plate"
+    },
+    "powered=true": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_pressure_plate_down"
+    }
+  }
+}

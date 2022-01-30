@@ -1,0 +1,24 @@
+{
+  "group": "rigoranthus_ingots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:feather"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:remex_netherite_ingot",
+    "count": 3
+  }
+}

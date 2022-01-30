@@ -1,0 +1,9 @@
+{
+  "variants": {
+	"": [
+            { "model": "rigoranthusemortisreborn:block/himalayan_salt", "weight": 4 },
+            { "model": "rigoranthusemortisreborn:block/himalayan_salt_alt", "weight": 4 },
+            { "model": "rigoranthusemortisreborn:block/himalayan_salt_alt2", "weight": 4 }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "crushing_hammers",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AS",
+    " WA",
+    "W  "
+  ],
+  "key": {
+    "A": {
+      "item": "rigoranthusemortisreborn:abyssalite"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:abyssalite_crushing_hammer",
+    "count": 1
+  }
+}

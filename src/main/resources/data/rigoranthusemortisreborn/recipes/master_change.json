@@ -1,0 +1,16 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:pact_of_servitude"
+    },
+    {
+      "item": "rigoranthusemortisreborn:wool_collar"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:master_change",
+    "count": 1
+  }
+}

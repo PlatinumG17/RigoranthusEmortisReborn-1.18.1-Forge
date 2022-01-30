@@ -1,0 +1,18 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "rigoranthusemortisreborn:powdered_esotericum"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:block_of_esotericum",
+    "count": 1
+  }
+}

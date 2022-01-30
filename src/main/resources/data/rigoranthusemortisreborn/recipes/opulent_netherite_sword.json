@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:opulent_netherite_ingot"
+    },
+    "1": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:opulent_sword",
+    "count": 1
+  }
+}

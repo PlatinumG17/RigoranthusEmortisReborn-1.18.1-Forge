@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LCL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "item": "rigoranthusemortisreborn:bottle_of_ichor"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:treat_bag"
+  }
+}

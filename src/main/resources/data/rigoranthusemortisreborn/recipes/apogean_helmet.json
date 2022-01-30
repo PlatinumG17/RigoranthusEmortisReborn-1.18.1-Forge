@@ -1,0 +1,17 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:apogean_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:apogean_netherite_helmet",
+    "count": 1
+  }
+}

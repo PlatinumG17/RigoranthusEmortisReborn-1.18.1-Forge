@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rigoranthusemortisreborn:stone_crushing_hammer",
+    "rigoranthusemortisreborn:gold_crushing_hammer",
+    "rigoranthusemortisreborn:iron_crushing_hammer",
+    "rigoranthusemortisreborn:diamond_crushing_hammer",
+    "rigoranthusemortisreborn:abyssalite_crushing_hammer"
+  ]
+}

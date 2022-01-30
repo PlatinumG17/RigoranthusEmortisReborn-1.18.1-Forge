@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:vertical_azuloreal_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_planks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "blueprint:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+}

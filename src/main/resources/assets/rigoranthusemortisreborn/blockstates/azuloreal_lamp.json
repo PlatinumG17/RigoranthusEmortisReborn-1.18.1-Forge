@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_lamp"
+    },
+    "lit=true": {
+      "model": "rigoranthusemortisreborn:block/azuloreal_lamp_on"
+    }
+  }
+}

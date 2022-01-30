@@ -1,0 +1,17 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:aqueous_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:aqueous_netherite_boots",
+    "count": 1
+  }
+}

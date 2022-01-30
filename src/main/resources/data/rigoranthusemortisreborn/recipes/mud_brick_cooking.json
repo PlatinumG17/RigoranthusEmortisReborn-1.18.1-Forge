@@ -1,0 +1,12 @@
+{
+  "group": "items",
+  "type": "minecraft:campfire_cooking",
+  "experience": 0.5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "rigoranthusemortisreborn:unfired_mud_brick"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:mud_brick"
+  }
+}

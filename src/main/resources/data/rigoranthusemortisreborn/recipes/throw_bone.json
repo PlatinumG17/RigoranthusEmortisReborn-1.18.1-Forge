@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FXF",
+    "XYX",
+    "FXF"
+  ],
+  "key": {
+    "X": {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    "Y": {
+      "item": "rigoranthusemortisreborn:bottle_of_ichor"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:throw_bone"
+  }
+}

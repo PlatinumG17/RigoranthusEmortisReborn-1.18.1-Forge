@@ -1,0 +1,55 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dweller_flesh"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dweller_flesh"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:bone_fragment"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "rigoranthusemortisreborn:dweller_flesh"
+    }
+  ],
+  "dominionCost": 200,
+  "output": {
+    "item": "rigoranthusemortisreborn:dweller_thorax",
+    "count": 1
+  }
+}

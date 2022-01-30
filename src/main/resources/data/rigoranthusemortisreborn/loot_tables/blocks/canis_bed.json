@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:copy_nbt",
+                "source": "block_entity",
+                "ops": [
+                  {
+                    "source": "casingId",
+                    "target": "rigoranthusemortisreborn.casingId",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "beddingId",
+                    "target": "rigoranthusemortisreborn.beddingId",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "ownerId",
+                    "target": "rigoranthusemortisreborn.ownerId",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "name",
+                    "target": "rigoranthusemortisreborn.name",
+                    "op": "replace"
+                  },
+                  {
+                    "source": "ownerName",
+                    "target": "rigoranthusemortisreborn.ownerName",
+                    "op": "replace"
+                  }
+                ]
+              }
+            ],
+            "name": "rigoranthusemortisreborn:canis_bed"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      }
+    ]
+  }

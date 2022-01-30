@@ -1,0 +1,33 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "DPD",
+    "GMG"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:splintered_pedestal"
+    },
+    "S": {
+      "tag": "forge:stone"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "R": {
+      "item": "minecraft:red_carpet"
+    },
+    "M": {
+      "item": "rigoranthusemortisreborn:dominion_gem"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:ritual_vessel",
+    "count": 1
+  }
+}

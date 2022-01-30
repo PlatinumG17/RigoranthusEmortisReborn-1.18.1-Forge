@@ -1,0 +1,24 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "rigoranthusemortisreborn:stripped_jessic_log"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:stripped_jessic_post",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "blueprint:quark_flag",
+      "flag": "wooden_posts"
+    }
+  ]
+}

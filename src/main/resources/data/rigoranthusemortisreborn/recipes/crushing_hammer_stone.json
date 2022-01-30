@@ -1,0 +1,24 @@
+{
+  "group": "crushing_hammers",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RS",
+    " WR",
+    "W  "
+  ],
+  "key": {
+    "R": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:stone_crushing_hammer",
+    "count": 1
+  }
+}

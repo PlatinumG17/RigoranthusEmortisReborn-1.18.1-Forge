@@ -1,0 +1,13 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:soul_coal_block"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:soul_coal",
+    "count": 9
+  }
+}

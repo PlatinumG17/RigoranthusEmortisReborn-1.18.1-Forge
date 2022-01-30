@@ -1,0 +1,13 @@
+{
+  "group": "rigoranthus_ingots",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:atrophying_netherite_block"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:atrophying_netherite_ingot",
+    "count": 9
+  }
+}

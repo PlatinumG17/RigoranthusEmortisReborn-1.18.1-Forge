@@ -1,0 +1,12 @@
+{
+  "group": "items",
+  "type": "minecraft:smelting",
+  "experience": 0.5,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "rigoranthusemortisreborn:unfired_mud_brick"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:mud_brick"
+  }
+}

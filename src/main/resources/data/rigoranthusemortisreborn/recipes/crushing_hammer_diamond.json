@@ -1,0 +1,24 @@
+{
+  "group": "crushing_hammers",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " DS",
+    " WD",
+    "W  "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:diamond_crushing_hammer",
+    "count": 1
+  }
+}

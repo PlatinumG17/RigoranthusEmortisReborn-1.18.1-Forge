@@ -1,0 +1,13 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_button",
+    "count": 1
+  }
+}

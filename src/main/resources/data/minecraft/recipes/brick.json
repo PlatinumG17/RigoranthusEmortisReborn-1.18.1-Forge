@@ -1,0 +1,12 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:smelting",
+  "experience": 0.3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "rigoranthusemortisreborn:unfired_brick"
+  },
+  "result": {
+    "item": "minecraft:brick"
+  }
+}

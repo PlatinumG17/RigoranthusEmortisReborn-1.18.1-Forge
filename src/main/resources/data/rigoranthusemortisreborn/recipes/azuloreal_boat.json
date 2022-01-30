@@ -1,0 +1,20 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_planks"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_boat",
+    "count": 1
+  }
+}

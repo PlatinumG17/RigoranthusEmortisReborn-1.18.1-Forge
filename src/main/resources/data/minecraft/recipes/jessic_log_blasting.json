@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.2,
+  "cookingtime": 120,
+  "ingredient": {
+    "tag": "rigoranthusemortisreborn:jessic_logs"
+  },
+  "result": {
+    "item": "minecraft:charcoal"
+  }
+}

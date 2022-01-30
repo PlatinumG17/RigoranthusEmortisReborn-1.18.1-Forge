@@ -1,0 +1,16 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_pressure_plate",
+    "count": 1
+  }
+}

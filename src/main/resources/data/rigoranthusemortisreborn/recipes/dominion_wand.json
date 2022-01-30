@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GD",
+    "GSG",
+    "SG "
+  ],
+  "key": {
+    "D": {
+      "item": "rigoranthusemortisreborn:dominion_gem"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "G": {
+        "tag": "forge:nuggets/gold"
+      }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:dominion_wand"
+  }
+}

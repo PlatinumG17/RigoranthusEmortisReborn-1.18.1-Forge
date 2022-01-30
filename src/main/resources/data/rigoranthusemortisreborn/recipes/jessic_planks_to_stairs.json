@@ -1,0 +1,18 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "00 ",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_stairs",
+    "count": 4
+  }
+}

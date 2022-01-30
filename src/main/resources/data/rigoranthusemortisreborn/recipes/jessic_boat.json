@@ -1,0 +1,20 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_boat",
+    "count": 1
+  }
+}

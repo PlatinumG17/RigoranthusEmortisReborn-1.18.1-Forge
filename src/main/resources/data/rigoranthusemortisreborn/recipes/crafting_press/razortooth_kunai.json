@@ -1,0 +1,12 @@
+{
+  "type": "rigoranthusemortisreborn:crafting_press_recipe",
+  "base": {
+      "tag": "forge:nuggets/iron"
+    },
+  "reagent": {
+    "item": "rigoranthusemortisreborn:razor_tooth"
+    },
+  "output": {
+    "item": "rigoranthusemortisreborn:razortooth_kunai"
+  }
+}

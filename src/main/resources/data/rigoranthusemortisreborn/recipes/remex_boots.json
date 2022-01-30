@@ -1,0 +1,17 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:remex_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:remex_netherite_boots",
+    "count": 1
+  }
+}

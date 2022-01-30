@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "B"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:atrophying_netherite_ingot"
+    },
+    "B": {
+      "item": "rigoranthusemortisreborn:big_bone"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:atrophying_sword",
+    "count": 1
+  }
+}

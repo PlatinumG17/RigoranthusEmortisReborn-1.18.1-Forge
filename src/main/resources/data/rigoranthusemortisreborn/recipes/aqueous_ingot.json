@@ -1,0 +1,24 @@
+{
+  "group": "rigoranthus_ingots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "rigoranthusemortisreborn:oxylite"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "rigoranthusemortisreborn:abyssalite"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:aqueous_netherite_ingot",
+    "count": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "rigoranthusemortisreborn:adventure/kill_a_languid_dweller",
+  "display": {
+    "icon": {
+      "item": "rigoranthusemortisreborn:forgotten_record"
+    },
+    "title": {
+      "translate": "advancements.rigoranthusemortisreborn.story.knowledge_seeker.title"
+    },
+    "description": {
+      "translate": "advancements.rigoranthusemortisreborn.story.knowledge_seeker.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_a_forgotten_record": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rigoranthusemortisreborn:forgotten_record"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_a_forgotten_record"
+    ]
+  ]
+}

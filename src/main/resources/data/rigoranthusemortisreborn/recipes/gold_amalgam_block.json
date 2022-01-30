@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "101",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blackstone"
+    },
+    "1": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:gold_amalgam",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:cadaver_skull"
+    },
+    {
+      "item": "minecraft:chain"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:hanging_cadaver_skull",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "IFI",
+    "OPO"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "item": "minecraft:red_carpet"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "P": {
+      "item": "rigoranthusemortisreborn:pact_of_servitude"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:table",
+    "count": 1
+  }
+}

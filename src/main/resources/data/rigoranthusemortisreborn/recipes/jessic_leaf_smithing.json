@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "minecraft:leaves"
+  },
+  "addition": {
+    "tag": "forge:nuggets/gold"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_leaves"
+  }
+}

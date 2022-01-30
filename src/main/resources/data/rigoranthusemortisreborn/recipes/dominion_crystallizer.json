@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ypy",
+      "gzg",
+      "yby"
+    ],
+    "key": {
+      "y": {
+        "tag": "forge:ingots/gold"
+      },
+      "z": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      },
+      "g": {
+        "tag": "forge:glass"
+      },
+      "p": {
+        "item": "minecraft:piston"
+      },
+      "b": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:dominion_crystallizer"
+    }
+  }

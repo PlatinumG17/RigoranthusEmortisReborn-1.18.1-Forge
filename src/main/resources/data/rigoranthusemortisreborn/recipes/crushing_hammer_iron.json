@@ -1,0 +1,24 @@
+{
+  "group": "crushing_hammers",
+  "type": "crafting_shaped",
+  "pattern": [
+    " IS",
+    " WI",
+    "W  "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "tag": "forge:string"
+    },
+    "W": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:iron_crushing_hammer",
+    "count": 1
+  }
+}

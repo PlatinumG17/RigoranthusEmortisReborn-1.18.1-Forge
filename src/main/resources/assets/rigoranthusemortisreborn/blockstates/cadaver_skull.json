@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "rigoranthusemortisreborn:block/cadaver_skull"
+		},
+		"facing=south": {
+			"model": "rigoranthusemortisreborn:block/cadaver_skull",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "rigoranthusemortisreborn:block/cadaver_skull",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "rigoranthusemortisreborn:block/cadaver_skull",
+			"y": 90
+		}
+	}
+}

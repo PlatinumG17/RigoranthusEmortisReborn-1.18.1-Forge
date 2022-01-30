@@ -1,0 +1,96 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"floating": {
+			"loop": true,
+			"animation_length": 10.4,
+			"bones": {
+				"center_gem": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*60)*.50", 0]
+					}
+				},
+				"hooks": {
+					"position": {
+						"vector": [0, "math.cos(query.anim_time*60)*.50", 0]
+					}
+				}
+			}
+		},
+		"rotation": {
+			"loop": true,
+			"animation_length": 10.4,
+			"bones": {
+				"framework": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, 360, 0]
+						}
+					}
+				},
+				"gem1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"gem2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"gem3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"gem4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"bottomframe": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.4": {
+							"vector": [0, -360, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

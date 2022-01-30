@@ -1,0 +1,53 @@
+{
+    "type": "rigoranthusemortisreborn:amalgamator_recipe",
+    "pedestalItems": [
+        {
+          "item": {
+            "tag": "forge:ingots/gold"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:ingots/gold"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:ingots/gold"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:ingots/gold"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:ender_pearls"
+          }
+        },
+        {
+          "item": {
+            "item": "rigoranthusemortisreborn:dominion_gem"
+          }
+        },
+        {
+          "item": {
+            "item": "rigoranthusemortisreborn:dominion_gem"
+          }
+        },
+        {
+          "item": {
+            "tag": "forge:ender_pearls"
+          }
+        }
+      ],
+      "reagent": [
+        {
+          "item": "rigoranthusemortisreborn:unadorned_ring"
+        }
+      ],
+      "output": {
+        "item": "rigoranthusemortisreborn:ring_of_lesser_conservation"
+      }
+    }

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "rigoranthusemortisreborn:block/dweller_brain"
+		},
+		"facing=south": {
+			"model": "rigoranthusemortisreborn:block/dweller_brain",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "rigoranthusemortisreborn:block/dweller_brain",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "rigoranthusemortisreborn:block/dweller_brain",
+			"y": 90
+		}
+	}
+}

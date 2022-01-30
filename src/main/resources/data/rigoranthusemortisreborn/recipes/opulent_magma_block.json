@@ -1,0 +1,24 @@
+{
+  "group": "blocks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_block"
+    },
+    "1": {
+      "item": "rigoranthusemortisreborn:gold_amalgam"
+    },
+    "2": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:opulent_magma",
+    "count": 4
+  }
+}

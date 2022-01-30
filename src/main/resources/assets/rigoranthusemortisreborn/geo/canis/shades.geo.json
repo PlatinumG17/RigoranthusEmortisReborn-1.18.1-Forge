@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shades",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "shades",
+					"pivot": [0, 17.5, -15],
+					"cubes": [
+						{"origin": [-3, 17, -22.85], "size": [5.5, 2, 0.2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

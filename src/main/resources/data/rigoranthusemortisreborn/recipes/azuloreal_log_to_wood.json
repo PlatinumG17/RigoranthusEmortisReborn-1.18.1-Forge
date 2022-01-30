@@ -1,0 +1,17 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_log"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_wood",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "psp",
+      "bzb",
+      "yby"
+    ],
+    "key": {
+      "y": {
+        "tag": "forge:ingots/gold"
+      },
+      "s": {
+        "tag": "forge:stone"
+      },
+      "z": {
+        "item": "rigoranthusemortisreborn:powdered_esotericum"
+      },
+      "p": {
+        "item": "minecraft:piston"
+      },
+      "b": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:ichor_extractor"
+    }
+  }

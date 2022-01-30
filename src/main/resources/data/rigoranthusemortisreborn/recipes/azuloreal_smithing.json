@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "minecraft:logs"
+  },
+  "addition": {
+    "tag": "forge:nuggets/iron"
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_log"
+  }
+}

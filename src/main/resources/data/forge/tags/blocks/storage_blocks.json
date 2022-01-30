@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:storage_blocks/apogean",
+    "#forge:storage_blocks/atrophying",
+    "#forge:storage_blocks/aqueous",
+    "#forge:storage_blocks/pernicious",
+    "#forge:storage_blocks/phantasmal",
+    "#forge:storage_blocks/opulent",
+    "#forge:storage_blocks/incorporeal",
+    "#forge:storage_blocks/infernal",
+    "#forge:storage_blocks/remex",
+    "#forge:storage_blocks/esotericum"
+  ]
+}

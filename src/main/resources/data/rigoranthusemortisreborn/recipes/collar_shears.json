@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "rigoranthusemortisreborn:bone_fragment"
+    },
+    "Y": {
+      "item": "minecraft:shears"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:collar_shears"
+  }
+}

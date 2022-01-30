@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "XXX",
+    "VUV"
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:bone"
+    },
+    "V": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "Y": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:training_treat"
+  }
+}

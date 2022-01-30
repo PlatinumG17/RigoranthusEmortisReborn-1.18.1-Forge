@@ -1,0 +1,24 @@
+{
+  "group": "jessic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "PSP",
+    "RPR"
+  ],
+  "key": {
+    "S": {
+      "item": "rigoranthusemortisreborn:stripped_jessic_log"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_lamp",
+    "count": 1
+  }
+}

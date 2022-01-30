@@ -1,0 +1,20 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+        "tag": "forge:rods/wooden"
+    },
+    "P": {
+      "item": "rigoranthusemortisreborn:azuloreal_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_fence_gate",
+    "count": 2
+  }
+}

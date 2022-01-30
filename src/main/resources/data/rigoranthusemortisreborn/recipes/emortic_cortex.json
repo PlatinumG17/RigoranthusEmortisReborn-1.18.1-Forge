@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sys",
+    "yby",
+    "ses"
+  ],
+  "key": {
+    "s": {
+      "tag": "forge:stone"
+    },
+    "y": {
+      "tag": "forge:glass"
+    },
+    "b": {
+      "item": "rigoranthusemortisreborn:dweller_brain"
+    },
+    "e": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:emortic_cortex"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rigoranthusemortisreborn:jessic_planks"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:jessic_chest",
+    "count": 1
+  }
+}

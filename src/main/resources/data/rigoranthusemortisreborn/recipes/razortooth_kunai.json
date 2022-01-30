@@ -1,0 +1,16 @@
+{
+  "group": "items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:razor_tooth"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:razortooth_kunai",
+    "count": 1
+  }
+}

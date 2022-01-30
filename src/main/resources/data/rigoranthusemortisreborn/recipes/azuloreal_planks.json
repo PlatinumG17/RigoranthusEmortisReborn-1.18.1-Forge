@@ -1,0 +1,13 @@
+{
+  "group": "azuloreal",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "rigoranthusemortisreborn:azuloreal_logs"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:azuloreal_planks",
+    "count": 1
+  }
+}

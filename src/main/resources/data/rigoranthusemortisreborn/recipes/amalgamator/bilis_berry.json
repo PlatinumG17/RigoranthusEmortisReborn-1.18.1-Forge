@@ -1,0 +1,35 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "rigoranthusemortisreborn:dominion_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "forge:seeds"
+    }
+  ],
+  "dominionCost": 100,
+  "output": {
+    "item": "rigoranthusemortisreborn:bilis_berry",
+    "count": 1
+  }
+}

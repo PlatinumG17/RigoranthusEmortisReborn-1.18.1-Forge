@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/apogean",
+    "#forge:ingots/aqueous",
+    "#forge:ingots/atrophying",
+    "#forge:ingots/pernicious",
+    "#forge:ingots/phantasmal",
+    "#forge:ingots/opulent",
+    "#forge:ingots/incorporeal",
+    "#forge:ingots/infernal",
+    "#forge:ingots/remex"
+  ]
+}

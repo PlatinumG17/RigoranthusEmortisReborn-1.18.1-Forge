@@ -1,0 +1,21 @@
+{
+  "group": "rigoranthusemortisreborn",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IR",
+    " R"
+  ],
+  "key": {
+    "I": {
+      "item": "rigoranthusemortisreborn:aqueous_netherite_ingot"
+    },
+    "R": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "rigoranthusemortisreborn:aqueous_axe",
+    "count": 1
+  }
+}

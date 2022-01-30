@@ -1,0 +1,13 @@
+{
+  "group": "rigoranthus_ingots",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rigoranthusemortisreborn:block_of_esotericum"
+    }
+  ],
+  "result": {
+    "item": "rigoranthusemortisreborn:powdered_esotericum",
+    "count": 9
+  }
+}

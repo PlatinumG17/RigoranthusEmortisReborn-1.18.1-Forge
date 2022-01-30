@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xgx",
+      " m ",
+      "bmb"
+    ],
+    "key": {
+      "x": {
+        "item": "rigoranthusemortisreborn:opulent_magma"
+      },
+      "g": {
+        "tag": "forge:glass_panes"
+      },
+      "m": {
+        "item": "minecraft:mossy_stone_bricks"
+      },
+      "b": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    "result": {
+      "item": "rigoranthusemortisreborn:splintered_pedestal"
+    }
+  }

@@ -1,0 +1,54 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:rods/wooden"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:rods/wooden"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:rods/wooden"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "output": {
+    "item": "rigoranthusemortisreborn:emortic_weapon_grip",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "rigoranthusemortisreborn:block/jessic_lamp"
+    },
+    "lit=true": {
+      "model": "rigoranthusemortisreborn:block/jessic_lamp_on"
+    }
+  }
+}

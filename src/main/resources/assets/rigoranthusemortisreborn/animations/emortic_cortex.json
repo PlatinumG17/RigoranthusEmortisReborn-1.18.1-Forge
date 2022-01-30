@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"brain_float": {
+			"loop": true,
+			"bones": {
+				"emortic_cortex": {
+					"position": {
+						"vector": [0, "math.cos(query.anim_time*30)*1.2", 0]
+					}
+				},
+				"brain": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*30)*1.2", 0]
+					}
+				}
+			}
+		},
+		"gem_float": {
+			"loop": true,
+			"bones": {
+				"gem1": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time * 65) * 1", 0]
+					}
+				},
+				"gem2": {
+					"position": {
+						"vector": [0, "math.cos(query.anim_time * 65) * 1", 0]
+					}
+				},
+				"gem3": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time * 65) * 1", 0]
+					}
+				},
+				"gem4": {
+					"position": {
+						"vector": [0, "math.cos(query.anim_time * 65) * 1", 0]
+					}
+				}
+			}
+		}
+	}
+}

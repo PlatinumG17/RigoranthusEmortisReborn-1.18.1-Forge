@@ -1,0 +1,55 @@
+{
+  "type": "rigoranthusemortisreborn:amalgamator_recipe",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:soul_sand"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "dominionCost": 100,
+  "output": {
+    "item": "rigoranthusemortisreborn:soul_coal_block",
+    "count": 1
+  }
+}
